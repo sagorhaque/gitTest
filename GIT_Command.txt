@@ -1,0 +1,42 @@
+// git initialization
+git init
+// git configuration change
+git config --global user.name "[user name of git server]"
+git config --global user.email "[email of git server]"
+// file add in git 
+git add . or git add -A // all files
+git add [file name] // specific file
+// commit to the server 
+git commit -m "message to commit"
+
+
+// file up into the server
+git push origin [branch name]
+// get file from server 
+git pull origin [brnach name]
+// add repository into local pc
+git remote add [url] // git repo url from git server
+// clone reposity into local pc
+git clone [url] // url = git repository url
+// branch create
+git checkout -b [branch name]
+// branch switching
+git checkout [branch name]
+// merge to file 
+git merge [branch name]
+
+
+// check current status
+git status
+// check activity log
+git log
+
+
+
+
+
+
+
+
+
+
